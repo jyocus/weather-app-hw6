@@ -1,0 +1,8 @@
+.search-section {
+    background-color: lightgray;
+}
+
+.current-weather-box {
+    display: block;
+    box-sizing: border-box 
+}

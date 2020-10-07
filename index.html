@@ -10,10 +10,34 @@
         <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <header>Weather Dashboard</header>
+    <div>
+        <header>Weather Dashboard</header>
+    </div>
+   
+<main>
+    <div class="grid-x grid-margin-x">
+        <div class="medium-3 cell search-section">
+        <input type="text" name="city" id="" placeholder="City Name" class="small-10 cell"> 
+        <button id="submitWeather" class="small-2 cell">Search</button>
+        </div>
+        <div class="grid-y grid-container-fluid">
+            <div class="cell medium-8">
+                <div class="container current-weather-box" id="current-weather">
+                    <!--Current Weather with Display Here From Ajax-->
+                </div>
 
+            </div>
+            <div class="cell medium-8">
+                <!-- Will input cards here-->
 
+            </div>
 
-    <script type="text/javascript"></script>
+        </div>
+    </div>
+
+</main>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript"></script>
 </body>
 </html>

@@ -11,18 +11,18 @@
 </head>
 <body>
     <div class="container-fluid" id="header">
-        <header>Weather Dashboard</header>
+        <h1 class="topbar">Weather Dashboard</h1>
     </div>
    
     <div class="container"></div>
     <div class="row">
     <div class="col-3" id="search-area">
-           <form>
+           <form class="search">
                <label for="city-search"> Search </label>
                <br>
                <input type=text id="city-search">
                <br>
-               <input role="button" type="submit" value="Search" id="city-name">
+               <input role="button" type="submit" value="Search" id="city-search-btn">
                <div id="previous-search"></div>
                </form>
             </div>
@@ -37,7 +37,7 @@
                 </row>
             </div>
             <row id="5-day">
-                <div id="forecast">
+                <div class="margin" id="forecast">
                     <h2>Five Day Forecast</h2>
                     <row class="row days"></row>
                 </div>
@@ -47,10 +47,10 @@
         </div>
 
 
-
+    </body>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.0/moment.min.js" integrity="sha512-Izh34nqeeR7/nwthfeE0SI3c8uhFSnqxV0sI9TvTcXiFJkMd6fB644O64BRq2P/LA/+7eRvCw4GmLsXksyTHBg==" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="./script.js"></script>
-</body>
+
 </html>

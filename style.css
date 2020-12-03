@@ -1,3 +1,11 @@
+.topbar {
+    background-color: slateblue;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
 .search-section {
     background-color: lightgray;
 }
@@ -5,4 +13,96 @@
 .current-weather-box {
     display: block;
     box-sizing: border-box 
+}
+
+.search {
+    margin-left: 20px;
+}
+
+
+h2 {
+    margin-left: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.toptitle {
+    background-color: slategray;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+#location-form {
+    margin-left: 15px;
+}
+
+.btn {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#label-text {
+    font-size: large;
+    font-weight: bold;
+}
+
+.results-boxes {
+    margin: 15px;
+    padding: 10px;
+}
+
+.forecast {
+    background-color:dodgerblue;
+    margin-left: 5px;
+    padding-top:10px;
+    padding-bottom: 10px;
+    padding-right: 5px;
+    padding-left: 5px;
+    color: white;
+    line-height: 2;
+    box-shadow: 2px 2px 2px black;
+}
+
+.forecast-date {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.forecast-data {
+    font-size: 10px; 
+}
+
+.forecast-date {
+    font-size: 16px; 
+    font-weight: bold;
+}
+
+.city-name-style {
+    font-size: 36px;
+}
+
+.lowestUV {
+    background-color: green;
+}
+
+.lowerUV {
+    background-color: yellow;
+}
+
+.margin {
+    margin-left: 15px;
 }
